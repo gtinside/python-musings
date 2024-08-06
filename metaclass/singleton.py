@@ -16,6 +16,7 @@ class SingletonMeta(type):
         print(f"Got new request for {cls}")
         if cls not in cls.__instance__:
             print("No instance exist, hence creating one!")
+            # be careful not to use cls in __call__
             cls.__instance__[cls] = super().__call__(*args, **kwargs)
         return cls.__instance__[cls]
 
