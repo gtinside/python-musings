@@ -1,7 +1,7 @@
 # python-musings
 A collection of examples on advance topics in python
 
-## (./file_analysis/unique_words.py)
+## Unique Words
 Sample Output
 ╔══════════════════════════════════════════════════════════╗
 ║                 Calculated by csv module                 ║
